@@ -1,0 +1,46 @@
+User Table
+----------------
+
+userID
+username
+password
+clientID
+
+
+Client Table
+----------------
+
+clientID
+clientName
+clientDomain
+clientLogo
+clientEmail
+
+
+
+Form Table
+----------------
+
+formID
+formSubject
+formReturnPath
+formMessage
+formAnalytics
+formGoal
+formMode
+
+
+Enquiry Table
+----------------
+
+id
+formID
+forename
+surname
+email
+referrer
+message
+
+
+
+INSERT INTO `cmstoltechforms`.`enquiry` (`id`, `formID`, `forename`, `surname`, `email`, `message`) VALUES (NULL, '43982738', 'test1', 'test2', 'test3', 'test4');
